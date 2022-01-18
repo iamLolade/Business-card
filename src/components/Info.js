@@ -8,8 +8,8 @@ function Info() {
             <h2 className="name">Ololade Otemade</h2>
             <p className="title">Frontend Developer</p>
             <div className="contact-buttons">
-                <button type="submit"><a href="mailto:adeniyiotemade@gmail.com"><img src={emailLogo} alt="Email-logo"/>Email</a></button>
-                <button type="submit" className="button2"><a href="https://www.linkedin.com/in/ololade-otemade-72959613a/" target="_blank"><img src={linkedInLogo} alt="LinkenIn-logo"/>LinkenIn</a></button>
+                <a href="mailto:adeniyiotemade@gmail.com"><button type="submit"><img src={emailLogo} alt="Email-logo"/>Email</button></a>
+                <a href="https://www.linkedin.com/in/ololade-otemade-72959613a/" target="_blank"><button type="submit" className="button2"><img src={linkedInLogo} alt="LinkenIn-logo"/>LinkenIn</button></a>
             </div>
         </div>
     )
