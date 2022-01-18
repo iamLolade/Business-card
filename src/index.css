@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252C;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+  margin-top: 80px;
+  width: 630px;
+  border: 2px solid #23252C;
+  min-height: 70vh;
+  text-align: center;
+  border-radius: 10px;
+  background: #1A1B21;
+  
+}
+
+.header {
+  margin-top: 0;
+}
+img {
+  height: 500px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.name {
+  color: #fff;
+  font-size: 35px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 40px;
+}
+
+.title {
+  color: #F3BF99;
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.header > .contact-buttons > button {
+  display: inline-block;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  margin: auto 30px;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.header > .contact-buttons > button > img{
+  width: 18px;
+  height: 18px;
+  margin-right: 25px;
+}
+
+.button2 {
+  background: #5093E2;
+  color: #fff;
+}
+
+.about {
+  margin: 40px 36px;
+  text-align: left;
+  color: #fff
+}
+
+.interest {
+  margin: 40px 36px;
+  text-align: left;
+  color: #fff
+}
+
+.details {
+  margin-top: 15px;
+  letter-spacing: 2px;
+}
+
+/* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
