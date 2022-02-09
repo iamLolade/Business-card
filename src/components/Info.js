@@ -1,4 +1,4 @@
-import headShot from "../image/Headshot.jpg"
+import headShot from "../image/profile.jpg"
 import emailLogo from "../image/Icon.png"
 import linkedInLogo from "../image/Vector.png"
 function Info() {
